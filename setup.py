@@ -3,10 +3,16 @@ from setuptools import setup
 setup(
     name='esqg',
     version='1.0',
-    packages=['esqg'],
+    py_modules=['esqg'],
+    install_requires=[
+        'numpy',
+        'seawater',
+        'scikit-learn',
+        # Add other dependencies here
+    ],
     entry_points={
         'console_scripts': [
-            'esqg = esqg.esqg_data:main_function',
+            'esqg-script = esqg:main',
         ],
     },
     author='Tianshi Du',
