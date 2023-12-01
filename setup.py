@@ -4,11 +4,6 @@ setup(
     name='esqg',
     version='1.0',
     packages=find_packages(),
-    install_requires=[
-        "numpy",
-        "seawater",
-        "sklearn"
-    ],
     author='Tianshi Du',
     author_email='dutianshi@hotmail.com',
     description='effective surface quasi-geostrophic theory',
