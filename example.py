@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # Create an instance of isqg_data
-e = esqg_data()
+d = esqg_data()
 
 # Define variables for the instance
 N = 50
