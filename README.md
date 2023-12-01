@@ -7,20 +7,20 @@ Installation
 -------------
 
 To install eSQG, simply clone this repository and run the setup file using the following command:
+    
     $ python setup.py install
 
 Dependencies
 -------------
 
 eSQG requires the following dependencies to be installed:
+
 "numpy", "seawater", "sklearn"
 
 Usage
 -------------
 
-eSQG can be used to reconstruct the three-dimensional subsurface ocean potential density and velocity based on the Sea Surface Height (SSH) anomaly fields, and ocean stratification climatology.
-
-To use eSQG, first prepare the input data (SSH anomaly, effective ocean stratification climatology, and a rms amplitude of the vertical velocity).
+eSQG can be used to reconstruct the three-dimensional subsurface ocean potential density and velocity based on SSH anomaly, effective ocean stratification climatology, and a rms amplitude of the vertical velocity.
 
 Contributing
 -------------
