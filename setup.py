@@ -1,9 +1,14 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='esqg',
     version='1.0',
-    packages=find_packages(),
+    packages=['esqg'],
+    entry_points={
+        'console_scripts': [
+            'esqg = esqg.esqg_data:main_function',
+        ],
+    },
     author='Tianshi Du',
     author_email='dutianshi@hotmail.com',
     description='effective surface quasi-geostrophic theory',
