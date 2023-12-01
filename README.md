@@ -1,4 +1,33 @@
-# esqg
-effective surface quasi-geostrophic (eSQG) method to reconstruct the ocean interior information
+effective Surface Quasi-Geostrophic (eSQG)
+================================================
 
-This method, expounded in Laperyre and Klein (2006), assumes that the potential vorticity (PV) anomalies in the interior upper ocean are correlated to the surface PV anomalies. This eSQG approach has been used for reconstruction of upper-ocean circulation structures.
+This software applies QG framework to retrieve ocean interior state using Sea Surface Height (SSH) anomaly fields and ocean stratification as the input.
+
+Installation
+-------------
+
+To install eSQG, simply clone this repository and run the setup file using the following command:
+    $ python setup.py install
+
+Dependencies
+-------------
+
+eSQG requires the following dependencies to be installed:
+"numpy", "seawater", "sklearn"
+
+Usage
+-------------
+
+eSQG can be used to reconstruct the three-dimensional subsurface ocean potential density and velocity based on the Sea Surface Height (SSH) anomaly fields, and ocean stratification climatology.
+
+To use eSQG, first prepare the input data (SSH anomaly, effective ocean stratification climatology, and a rms amplitude of the vertical velocity).
+
+Contributing
+-------------
+
+Contributions to eSQG are welcome! Please feel free to fork this repository and submit pull requests with your improvements.
+
+Citation
+-------------
+
+This software is based on the effective Surface Quasi-geostrophic (isQG) framework proposed by Qiu et al. in 2016. 
