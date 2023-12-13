@@ -80,10 +80,10 @@ class esqg_data:
 
         # Apply 2D trapezoid window
         num = self.window_width
-        winx = np.ones((self.ny))
+        winx = np.ones((self.nx))
         winx[0:num] = np.linspace(0, 1, num)
         winx[-num::] = np.linspace(1, 0, num)
-        winy = np.ones((self.nx))
+        winy = np.ones((self.ny))
         winy[0:num] = np.linspace(0, 1, num)
         winy[-num::] = np.linspace(1, 0, num)
         wx, wy = np.meshgrid(winx, winy)
